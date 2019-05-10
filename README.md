@@ -39,4 +39,4 @@ You can also use `Hashie::Mash` if you so wish in order to be able to access API
 
 ## Further documentation
 
-**RubyDoc page is coming soon.** There will be documentation with examples for every single function.
+[RubyDoc Documentation is available here.](https://www.rubydoc.info/gems/untis)
