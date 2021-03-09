@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'untis'
-  s.version     = '1.0.1'
-  s.date        = '2019-05-07'
+  s.version     = '1.1.0'
+  s.date        = '2020-03-09'
   s.summary     = "Untis Timetable system wrapper."
   s.description = "WebUntis Timetable Management system wrapper for Ruby."
   s.authors     = [ "Meow the Cat" ]
