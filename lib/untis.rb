@@ -19,7 +19,7 @@ class UntisWorker
     @person_type      = args[:person_type]
     @api_base_url     = args[:api_base_url] || "https://kephiso.webuntis.com/WebUntis"
     @school_name      = args[:school_name]  || "Example School"
-    @school_name_url  = URI.encode_www_form_component @school_name.gsub(/\s/, '+')
+    @school_name_url  = URI.encode_www_form_component(@school_name.gsub(/\s/, '+')).gsub("+", "%20")
     @api_url_base     = URI "#{@api_base_url}/jsonrpc.do"
     @api_url          = URI "#{@api_base_url}/jsonrpc.do?school=#{@school_name_url}"
     @api_version      = '2.0'
